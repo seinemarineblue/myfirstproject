@@ -1,0 +1,874 @@
+/* 순서: 1.마이페이지, 2.장바구니/찜리스트, 3.예매내역 조회/확인, 4.뮤지컬, 5.콘서트 */
+
+/* 마이페이지 */
+       section.mypage {
+            margin: 70px 0 200px 0;
+        }
+        
+        section.mypage a {
+            text-decoration: none; color:#000000;
+        }
+        section.mypage a:link, 
+        section.mypage a:active, 
+        section.mypage a:visited {
+            text-decoration: none;
+        }
+        section.mypage a:hover {
+            text-decoration: underline;
+            color: #de7776;
+        }
+                
+        .mypage .container {
+            width: 960px;
+            max-width: 100%;
+        }
+        
+        .mypageAside-inner {
+            display: inline;
+            float: left;
+            max-width: 100%;
+        }
+        
+        .mypageMenu-wrap1 {
+            padding-top: 15px;
+            width: 180px;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: #f5f5f5cc;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #c7c4c4;
+            max-width: 100%;
+        }
+        
+        .mypageMenu2 {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #c7c4c4;
+            background-color: white;
+        }
+        
+        .mypageMenu-wrap2 {
+            top: 70px;
+            width: 180px;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #c7c4c4;
+        }
+        
+        .mypageMenu3 > li {
+            list-style: circle;
+        }
+        .mypageSection-inner {
+            float: right;
+            width: 765px;
+            max-width: 100%;
+        }
+        
+        .news-wrap {
+            margin-bottom: 30px;
+            max-width: 100%;
+        }
+        
+        .news-title, .booking-title {
+            width: 765px;
+            height: 25px;
+            max-width: 100%;
+        }
+
+        .news-title img {
+            float: left;
+        }
+        
+        .news {
+            border-width: 2px 1px 1px 1px;
+            border-style: solid;
+            border-top-color: #da6464;
+            border-bottom-color: #c7c4c4;
+            border-left-color: #c7c4c4;
+            border-right-color: #c7c4c4;
+            max-width: 100%;
+        }
+        
+        .booking-title > .tit {
+            float: left;
+            font-size: 17px;
+            font-weight: bold;
+            color: dimgrey;
+        }
+        
+        .book-table {
+            border-width: 2px 0 1px 0;
+            border-style: solid;
+            border-top-color: #da6464;
+            border-bottom-color: #c7c4c4;
+        }
+        
+        .ask-btn {
+            position: relative;
+            top: 149px;
+            right: 220px;
+            width: 170px;
+            height: 40px;
+            margin-top: 20px;
+            overflow: auto;
+            max-width: 100%;
+        }
+        
+        .news-wrap > .news-title > .exp, .booking-wrap > .booking-title > .exp {
+            font-size: 11px;
+            font-weight: normal;
+            color: #898989;
+            padding-left: 7px;
+            margin-left: 7px;
+            border-left: 1px solid #c1c1c1;
+        }
+
+        @media (max-width:946px) {
+            .mypageAside-inner, 
+            .news-wrap > .news-title > .exp, 
+            .booking-wrap > .booking-title > .exp {
+                display: none;
+            }
+        }
+
+
+/* 장바구니/찜리스트 */
+        section.mycart {
+            text-align: center;
+            margin: 70px 0;
+        }
+
+        .mycart .container {
+            width: 960px;
+        }
+
+        section.mycart a {
+            text-decoration: none; color:#000000;
+        }
+        section.mycart a:link, 
+        section.mycart a:active, 
+        section.mycart a:visited {
+            text-decoration: none;
+        }
+        section.mycart a:hover {
+            text-decoration: underline;
+            color: #de7776;
+        }
+
+        .mycart .tab-content, 
+        .mycart .tabs-style {
+            width: 960px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        .mycart .tabs-style > li > a {
+            border: none; 
+            border-radius: 0; /*윤곽둥글기 해제*/
+            margin: 0;
+            font-size: 23px;
+            color: #dfdfdf;
+        }
+        /*토글탭이 활성화 됐을때 배경색, 컬러, 보더 */
+        .mycart .tabs-style > li.active > a,
+        .mycart .tabs-style > li.active > a:hover,
+        .mycart .tabs-style > li.active > a:focus {
+            font-size: 23px;
+            color: #252525;
+        }
+        
+        .mycart .tabs-style > li > a:hover {
+            background-color: white;
+            font-size: 23px;
+            color: #dfdfdf;
+        }
+        
+        .cart-table, .fork-table {
+            margin: 30px 0;
+        }
+        
+        .cart-table input[type="checkbox"],
+        .fork-table input[type="checkbox"] {
+            -webkit-appearance:checkbox; -moz-appearance:checkbox;
+            float: right;
+        }
+
+        .category {
+            border-top: 30px;
+            width: 960px;
+            text-align: center;
+        }
+        
+        .category > th {
+            text-align: center;
+            font-weight: normal;
+        }
+        
+        .category > .txt4, .category > .txt5, .category > .txt6, .category > .txt7 {
+            border-left: 1px solid #c1c1c1;
+    
+        }
+
+        .tab-content table tr td {
+            text-align: left;
+        }
+        
+        .total {
+            padding: 10px;
+            border: 1px solid #c1c1c1;
+            border-radius: 7px;
+            background-color: #f5f5f5cc;
+            height: 94px;
+            font: 12px dotum;
+            color: #636363;
+            text-align: left;
+        }
+        
+        .mycart .total > .cal {
+            float: right;
+            padding: 10px;
+            width: 510px;
+            height: 80px;
+            text-align: right;
+            color: #DA6464;
+            max-width: 100%;
+        }
+        
+        .mycart .choice {
+            float: right;
+            margin: 20px;
+        }
+        
+        .mycart .choice p {
+            display: inline;
+            padding-right: 7px;
+            font-size: 18px;
+        }
+        
+        .mycart .order {
+            width: 106px;
+            height: 33px;
+        }
+        
+        .mycart .delete {
+            width: 71px;
+            height: 33px;
+        }
+
+
+/* 예매내역 조회/확인 */ 
+        section.booking_search {
+            margin: 70px 0;
+        }
+
+        .booking_search .container {
+            width: 960px;
+            max-width: 100%;
+        }
+        .booking_search a {
+            text-decoration: none; color:#000000;
+        }
+        .booking_search a:link, 
+        .booking_search a:active, 
+        .booking_search a:visited {
+            text-decoration: none;
+        }
+        .booking_search a:hover {
+            text-decoration: underline;
+            color: #de7776;
+        }
+
+        .booking_search .aside-inner {
+            display: inline;
+            float: left;
+            max-width: 100%;
+        }
+        
+        .menu-wrap1 {
+            padding-top: 15px;
+            width: 180px;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: #f5f5f5cc;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #c7c4c4;
+            max-width: 100%;
+        }
+        
+        .menu2 {
+            margin: 10px;
+            padding: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #c7c4c4;
+            background-color: white;
+        }
+        
+        .menu-wrap2 {
+            top: 70px;
+            width: 180px;
+            padding: 10px;
+            margin-top: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #c7c4c4;
+        }
+        
+        .section-inner {
+            float: right;
+            max-width: 100%;
+        }
+
+        .booking-title {
+            width: 765px;
+            height: 25px;
+            max-width: 100%;
+            border-width: 0 0 2px 0;
+            border-style: solid;
+            border-bottom-color: #da6464;
+        }
+        
+        .booking-title > .tit {
+            padding-left: 3px;
+            font-size: 17px;
+            font-weight: bold;
+            color: dimgrey;
+        }
+                
+        .section-inner .exp {
+            font-size: 11px;
+            font-weight: normal;
+            color: #898989;
+            padding-left: 5px;
+        }
+        
+        .box {
+            margin: 20px 0;
+            padding: 0 20px 20px 20px;
+            width: 765px;
+            height: 65px;
+            background-color: #f5f5f5cc;
+            border: 1px solid #c7c4c4;
+            max-width: 100%;
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .box div {
+            float: left;
+            padding: 20px 10px 5px 10px;
+            max-width: 100%;
+        } 
+        
+        .box p, .box ul, .box li {
+            float: left;
+        }
+        
+        .box p {
+            padding-right: 7px;
+        }
+        
+        .box select {
+            border: 1px solid #c7c4c4;
+            width: 45px;
+            height: 19px;
+            padding-left: 4px;
+        }
+        
+        .booking_search .tabs-style {
+            width: 765px;
+        }
+        
+        .booking_search .tabs-style > li > a {
+            border: none; 
+            border-radius: 0; /*윤곽둥글기 해제*/
+            margin: 0;
+            font-size: 17px;
+            font-weight: bold;
+            color:#dfdfdf;
+        }
+        
+        /*토글탭이 활성화 됐을때 배경색, 컬러, 보더 */
+        .booking_search .tabs-style > li.active > a,
+        .booking_search .tabs-style > li.active > a:hover,
+        .booking_search .tabs-style > li.active > a:focus {
+            font-size: 17px;
+            color: dimgray;
+        }
+        
+        .booking_search .tabs-style > li > a:hover {
+            background-color: white;
+            font-size: 17px;
+            color: #dfdfdf;
+        }
+        
+        .booking_search .tab-content > table {
+            border-width: 2px 0 0 0;
+            border-style: solid;
+            border-top-color: #da6464;
+            margin: 20px 0;
+        }
+            
+        .inquiry {
+            width: 170px;
+            height: 40px;
+            margin-top: 20px;
+            overflow: auto;
+            max-width: 100%;
+            position: relative;
+            right: 15px;
+        }
+
+        @media (max-width: 946px) {
+            .booking_search .aside-inner, 
+            .exp, 
+            .inquiry { 
+                display: none;
+            }
+        }
+        
+        @media (max-width: 707px) {
+            .period { display: none;}
+        }
+        
+        @media (max-width: 470px) {
+            .box { display: none;}
+        }
+
+/* 뮤지컬 */
+        section.musical a {
+            text-decoration: none; color:#000000;
+        }
+        section.musical a:link, 
+        section.musical a:active, 
+        section.musical a:visited {
+            text-decoration: none;
+        }
+        section.musical a:hover {
+            text-decoration: underline;
+            color: #de7776;
+        }
+        body .musical{
+            text-align: center;
+        }
+        
+        section.musical {
+            margin-top: 10px;
+        }
+        
+        .main-show {   
+            position: relative;           
+            height: 328px;
+        }
+      
+        .main-show > .img-wrap {
+            position: relative;
+            width: 900px;
+            margin-top: 44px;
+            margin-left: 56px;
+        }
+        
+        .img-wrap dl {
+            float: left;
+            position: relative;
+            bottom: 332px;
+            left: 105px;
+            margin: 6px;
+            max-width: 100%;
+        }
+        
+        .main-img2 img, .main-img3 img, .main-img4 img, .main-img6 img {
+            width: 123px;
+            height: 150px;
+            max-width: 100%;
+        }
+        
+        .main-show dd {
+            margin-top: 17px;
+        }
+        
+        .main-show dl .txt1 {
+            display: block;
+            width: 129px;
+            height: 14px;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .main-show dl .txt2, .main-show dl .txt3 {
+            display: block;
+            color: #a0a0a0;
+            text-align: center;
+            font-size: 11px;
+            font-family: arial;
+            letter-spacing: 0;
+            height: 11px;
+        }
+        
+        .menu-musical {
+            display: inline;
+            text-align: left;        
+            float: left;
+            position: relative;
+            right: 69%;
+            bottom: 20px;
+            width: 178px;
+            height: 295px;
+            margin-right: 10px;
+            font-weight: bolder;
+        }
+        
+        .menu-musical dl {
+            width: 178px;
+            line-height: 3px;
+            padding: 13px;
+            max-width: 100%;
+            border: 4px solid #fff0d9;
+        }
+        
+        .menu-musical dl > dd {
+            font-size: 13px;
+            line-height: 30px;
+            
+            color: #33333b;
+        }
+        
+        .menu-musical > dl .menu-title {
+            font-size: 11px;
+            line-height: 20px;
+            border-bottom: 1px solid #c7c4c4;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .menu-title > .num {
+            color: #da6464;
+            text-decoration: underline;
+        }
+        
+        .center {
+            position: relative;
+            left: 275px;
+            bottom: 300px;
+            float: left;
+            margin: 0 0 0 16px;
+            width: 510px;
+            height: 320px;
+        }
+        
+        .center > .banner-wrap {
+            float: left;
+            width: 510px;
+            height: 149px;
+         
+        }
+        
+        .banner-wrap > .banner {
+            float: left;
+            
+        }
+        
+        .banner-wrap > ul {
+            float: left; 
+            width: 130px;
+            height: 149px;
+            border: 1px solid #c7c4c4;
+            font-size: 12px;
+            background-color: #f5f5f5cc;
+            line-height: 23px;
+            text-align: left;
+        }
+
+        .banner-wrap ul li {
+            border-top: 1px solid #c7c4c4;
+            padding: 0 5px;
+        }
+
+        .banner-wrap ul li a:hover {
+            text-decoration-color: #4f4f4f;
+        }
+
+        .banner-wrap ul li a:hover span,
+        .banner-wrap ul li a:link span {
+            text-decoration-color: #4f4f4f;
+            color: white;
+        }
+        
+        .center > .banner-bottom {
+            position: relative;
+            top: 20px;
+            width: 510px;
+            font-weight: bold;
+        }
+        
+        .red-mu dd, .red-news dd {
+            padding: 5px 0 0 5px;
+            text-align: left;
+        }
+        
+        .red-mu, .red-news {
+            position: absolute;
+            height: 70px;
+        }
+        
+        .red-mu {
+            top: 150px;
+        }
+        
+        .red-news {
+            top: 220px;
+        }
+        
+        .red-news dd a {
+            display: block;
+        }
+
+        .rank-musical {
+            position: relative;
+            left: 290px;
+            bottom: 315px;
+            float: left;
+            width: 250px;
+            height: 150px;
+            border: 4px solid #f5f5f5cc;
+            padding: 5px 15px;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        .rank-musical dl {
+            border-bottom: 1px solid #c7c4c4;
+            margin-bottom: 3px;
+            text-align: center;
+        }
+        
+       .wrap-issue {
+            position: relative;
+            left: 100px;
+            bottom: 430px;
+            clear: both;
+            width: 960px;
+            margin-top: 10px;
+            border-top: 2px solid #6b6f81;
+        }
+        
+        .wrap-issue .issue {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 10px;
+            display: block;
+            border: 1px solid #cdcdcd;
+            border-top: none;
+        }
+        
+        .issue p.tit {
+            position: relative;
+            float: left;
+            padding: 12px 15px 7px 13px;
+            
+        }
+        
+        .issue .list {
+            position: relative;
+            margin:  0 0 7px 18px;
+            display: inline-block;
+        }
+        
+        .issue .list dt.obj {
+            position: relative;
+            float: left;
+            margin: 20px 30px 0 30px;
+            width: 115px;
+            height: 188x;
+        }
+        
+        .list .obj img {
+            width: 95px;
+            height: 116px;
+        }
+        
+        .issue .list dd.info {
+            position: relative;
+            display: block;
+            text-align: center;
+        }
+        
+        .issue .list p.info .txt1 {
+            display: block;
+            font-weight: bold;
+            height: 14px;
+            letter-spacing: -.1em;
+            margin-top: 8px;
+        }
+        
+        .issue .list p.info .txt2 {
+            display: block;
+            font-size: 11px;
+            color: #6c6d6f;
+            height: 12px;
+            letter-spacing: -.1em;
+        }
+        
+        .issue p.line {
+            position: relative;
+            height: 1px;
+            display: block;
+            margin: 0 17px 10px 17px;
+            border: none;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+
+/* 콘서트 */
+        section.concert a {
+            text-decoration: none; color:#000000;
+        }
+        section.concert a:link, 
+        section.concert a:active, 
+        section.concert a:visited {
+            text-decoration: none;
+        }
+        section.concert a:hover {
+            text-decoration: underline;
+            color: #de7776;
+        }
+        
+        body .concert{
+            text-align: center;
+        }
+
+	    section.concert {
+            margin-top: 10px;
+        }
+        
+         section.concert .main-img1 img, section.concert .main-img5 img {
+            width: 123px;
+            height: 150px;
+            max-width: 100%;
+        }
+
+        .menu-concert {
+            display: inline;
+            text-align: left;        
+            float: left;
+            position: relative;
+            right: 69%;
+            bottom: 20px;
+            width: 178px;
+            height: 295px;
+            margin-right: 10px;
+            font-weight: bolder;
+        }
+        
+        .menu-concert dl {
+            width: 178px;
+            line-height: 3px;
+            padding: 13px;
+            max-width: 100%;
+            border: 4px solid #fff0d9;
+            color: #33333b;
+        }
+        
+        .menu-concert dl > dd {
+            font-size: 13px;
+            line-height: 24px;
+            text-align: left;
+	   		color: #33333b;
+        }
+        
+        .menu-concert > dl .menu-title {
+            font-size: 11px;
+            line-height: 30px;
+            border-bottom: 1px solid #c7c4c4;
+            padding-bottom: 5px;
+            margin-bottom: 8px;
+        }      
+        
+        .menu-title > .num {
+            color: #da6464;
+            text-decoration: underline;
+        }
+        
+        .center {
+            position: relative;
+            left: 275px;
+            bottom: 315px;
+            float: left;
+            margin: 0 0 0 16px;
+            width: 510px;
+            height: 320px;
+        }
+        
+        .center > .banner-wrap {
+            float: left;
+            width: 510px;
+            height: 149px;
+         
+        }
+        
+        .banner-wrap > .banner {
+            float: left;
+        }
+        
+        .banner-wrap > ul {
+            float: left; 
+            width: 130px;
+            height: 149px;
+            border: 1px solid #c7c4c4;
+            font-size: 12px;
+            background-color: #f5f5f5cc;
+            line-height: 23px;
+            text-align: left;
+        }
+        
+        .center > .banner-bottom {
+            position: relative;
+            top: 20px;
+            width: 510px;
+            font-weight: bold;
+        }
+        
+        .red-con dd, .red-news dd {
+            padding: 5px 0 0 5px;
+            text-align: left;
+        }
+        
+        .red-con, .red-news {
+            position: absolute;
+            height: 70px;
+        }
+        
+        .red-con {
+            top: 150px;
+        }
+        
+        .red-news {
+            top: 220px;
+        }
+
+        .rank-concert {
+            position: relative;
+            left: 290px;
+            bottom: 315px;
+            float: left;
+            width: 250px;
+            height: 150px;
+            border: 4px solid #f5f5f5cc;
+            padding: 5px 15px;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        .rank-concert dl {
+            border-bottom: 1px solid #c7c4c4;
+            margin-bottom: 3px;
+            text-align: center;
+        }

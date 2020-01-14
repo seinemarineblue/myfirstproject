@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+	<!-- MyBatis Setting XML -->
+	<configuration>
+		<typeAliases>
+			<typeAlias type="com.webtime.command.FaqVO" alias="FaqVO"/>
+			<typeAlias type="com.webtime.command.FaqChatVO" alias="FaqChatVO"/>
+			<typeAlias alias="UserVO" type="com.webtime.command.UserVO"/>
+			<typeAlias alias="TicketVO" type="com.webtime.command.TicketVO"/>
+			<typeAlias alias="ContentVO" type="com.webtime.command.ContentVO"/>
+			<typeAlias alias="CartVO" type="com.webtime.command.CartVO"/>
+		</typeAliases>
+	</configuration>

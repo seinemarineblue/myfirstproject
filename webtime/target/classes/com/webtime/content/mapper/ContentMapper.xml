@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.webtime.content.mapper.ContentMapper">
+
+
+	<insert id="pay">
+		insert into t_pay(num, id, user_name, title, bank, card_num, seat_num, price) values(#{num}, #{id}, #{user_name}, #{title}, #{bank}, #{card_num}, #{seat_num}, #{price})
+	</insert>
+	
+<!-- 	<select id="getForPay" resultType="com.webtime.command.ContentVO"> -->
+<!-- 		select * from t_user where  id=#{id} -->
+<!-- 	</select> -->
+	
+	<select id="getList" resultType="TicketVO">
+		select num, title, place from ticket
+	</select>
+
+	<select id="muTotal" resultType="int">
+		select count(*) from ticket where type='뮤지컬'
+	</select>
+
+	<select id="conTotal" resultType="int">
+		select count(*) from ticket where type='콘서트'
+	</select>
+
+	<select id="rankMusical" resultType="TicketVO">
+	  <![CDATA[ 
+		select * from
+		    (select * from ticket order by hit desc)
+		        where type='뮤지컬' and rownum <=3
+	 ]]>
+	</select>
+	
+	<select id="rankConcert" resultType="TicketVO">
+	  <![CDATA[
+		select * from
+		    (select * from ticket order by hit desc)
+		        where type='콘서트' and rownum <=3
+	  ]]>
+	</select>
+	
+	<update id="updateHit" parameterType="java.lang.Integer">
+		update ticket set hit = hit + 1 where num =#{num}
+	</update>
+	
+	<select id="getInfo" resultType="TicketVO">
+		select * from ticket where num = #{num}
+	</select>
+	
+
+</mapper>

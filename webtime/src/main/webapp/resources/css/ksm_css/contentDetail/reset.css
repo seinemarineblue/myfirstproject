@@ -1,0 +1,73 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+div,
+em,
+img,
+ul,
+li,
+ol,
+fieldset,
+label,
+dt,
+p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 12px;
+  color: #33333b;
+}
+
+body {
+  background: #fff;
+  -webkit-text-size-adjust: none;
+  text-align: center;
+}
+
+table,
+tr,
+td {
+  font-size: 12px;
+  color: #33333b;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #33333b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #da6464;
+  text-decoration: underline;
+}
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+.bn_TR iframe.pd table {
+  text-align: left;
+}
+
+.png24 {
+  tmp: expression(setPng24(this));
+  _background: none;
+}

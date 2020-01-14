@@ -1,0 +1,328 @@
+    #openIdJoinWrap {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px 0 60px;
+}
+
+
+ .notiTxt {
+  margin: 15px 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+ button {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: none;
+  outline: 0;
+  cursor: pointer;
+  font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  font-weight: 300;
+}
+
+.btnRed {
+  border-top: 1px solid #ef3e42;
+  background-color: #ef3e42;
+  font-size: 16px;
+  color: #fff;
+}
+
+ .btnWhite {
+  border-top: 1px solid #ef3e42;
+  background-color: #fff;
+  font-size: 16px;
+  color: #ef3e42;
+}
+
+.blank {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+
+.contentsWrap * {
+  font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo",sans-serif;
+  font-weight: 300;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+.contentsWrap .interSignup {
+  padding: 50px;
+  border: 1px solid #ef3e42;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.contentsWrap .interSignup .leftBox {
+  display: inline-block;
+  width: 160px;
+  padding-top: 100px;
+  vertical-align: middle;
+}
+
+.contentsWrap .interSignup .leftBox p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #202020;
+}
+
+.contentsWrap .interSignup .joinBtnBox {
+  display: inline-block;
+  width: 300px;
+  margin-left: 38px;
+  vertical-align: middle;
+     
+}
+.contentsWrap .interSignup .joinBtnBox{
+   text-decoration:none     
+    }
+
+.contentsWrap .interSignup .joinBtnBox .inparkBtn {
+  margin-bottom: 25px;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsTxt {
+  font-size: 15px;
+  color: #707070;
+}
+
+.contentsWrap .interSignup .joinBtnBox .notiTxt {
+  display: block;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn ul {
+  margin-top: 10px;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li {
+  margin-bottom: 10px;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a {
+  display: block;
+  height: 50px;
+  line-height: 48px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a span {
+  display: block;
+  margin-left: 50px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #202020;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a.naver {
+  background-position: 11px 13px;
+  background-color: #2db400;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a.kakao {
+  background-position: 12px -57px;
+  background-color: #ffeb00;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a.payco {
+  background-position: 13px -132px;
+}
+
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a.payco span {
+  border-left: 1px solid #e5e5e5;
+}
+
+.contentsWrap .interSignup .joinBtnBox .caution {
+  padding-left: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.contentsWrap .interSignup .joinBtnBox .sellerBtn a {
+  display: block;
+  height: 50px;
+  line-height: 48px;
+  border: 1px solid #aaa;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #202020;
+}
+
+.contentsWrap .interSignup.seller {
+  margin-top: 30px;
+  border: 0;
+}
+
+.contentsWrap .interSignup.seller .leftBox {
+  background: none;
+  padding-top: 0;
+  text-align: center;
+}
+
+.contentsWrap .interSignup.seller .btnBox:first-child {
+  margin-bottom: 25px;
+}
+
+.contentsWrap .interSignup.seller .btnBox .sellerBtn {
+  margin-top: 10px;
+}
+
+.contentsWrap .customerNoti {
+  display: block;
+  height: 144px;
+  margin-top: 50px;
+  text-indent: -500em;
+
+}
+
+.contentsWrap .customerNoti span {
+  display: inline-block;
+}
+
+.contentsWrap .snsjoin {
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.contentsWrap .snsjoin .joinTab ul {
+  font-size: 0;
+}
+
+.contentsWrap .snsjoin .joinTab li {
+  display: inline-block;
+  width: 50%;
+  height: 45px;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ef3e42;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 0;
+}
+
+.contentsWrap .snsjoin .joinTab li:first-child {
+  border-right: 0;
+  border-left: 1px solid #ddd;
+}
+
+.contentsWrap .snsjoin .joinTab li a {
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  font-size: 15px;
+  color: #707070;
+}
+
+.contentsWrap .snsjoin  {
+  background-color: #fff;
+  border: 1px solid #ef3e42;
+  border-bottom: 0;
+}
+
+.contentsWrap .snsjoin {
+  color: #ef3e42;
+}
+
+.contentsWrap .snsjoin  {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contentsWrap .snsjoin  {
+  display: inline-block;
+  font-size: 20px;
+     color: #ef3e42;
+ padding-left: 90px;
+}
+
+.contentsWrap .joinOk .signupMyInfo {
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.contentsWrap button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.contentsWrap .btnRed {
+  display: block;
+  background-color: #ef3e42;
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+  border-radius: 4px;
+  border: 1px solid #ef3e42;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+    
+}
+ .contentsWrap .btnRed {
+     
+    }
+
+.contentsWrap .btnWhite {
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  height: 35px;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #ef3e42;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #ef3e42;
+}
+
+.contentsWrap .customerNoti {
+    display: block;
+    height: 144px;
+    margin-top: 50px;
+    text-indent: -500em;
+    background: url(/inter/img/join_noti_img.png) no-repeat 0 0;
+}
+    
+.contentsWrap .interSignup .joinBtnBox .snsBtn li a {
+    display: block;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: url(/img/sns_icon.png) no-repeat 0 0;
+    text-decoration-style: none;
+}  
+    
+li { 
+     list-style: none } 
+a.no-uline {
+    text-decoration:none }  
+ul a{
+    text-decoration:none }

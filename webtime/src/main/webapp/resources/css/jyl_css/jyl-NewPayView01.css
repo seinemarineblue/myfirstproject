@@ -1,0 +1,319 @@
+   .pay4 .innerpay {
+            
+            margin-top: 100px;
+            color: black;
+        }
+
+        checkbox {
+            text-align: center;
+        }
+
+        table.myinfo {
+
+            font-size: 11px;
+            float: left;
+            border-collapse: collapse;
+            text-align: left;
+            line-height: 1.5;
+            margin: 20px 10px;
+        }
+
+        .left-content4 td {
+            background: white;
+
+        }
+
+        table.myinfo th {
+            width: 150px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border: 1px solid #ccc;
+        }
+
+        table.myinfo td {
+            width: 350px;
+            padding: 10px;
+            vertical-align: top;
+            border: 1px solid #ccc;
+        }
+
+        .right-image3 {
+            float: right;
+            width: 13.3%;
+
+            position: relative;
+
+            bottom: 185px;
+            margin-left: 340px;
+
+            box-shadow: 5px 5px 5px;
+            margin-right: 150px;
+
+        }
+
+        .lefttable th,
+        .lefttable tb,
+        .lefttable tr {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .lefttable {
+            margin-left: 10px;
+        }
+
+        .right-image {
+            float: right;
+            width: 20%;
+
+            position: relative;
+
+            bottom: 55px;
+            margin-left: 350px;
+            margin-bottom: 30px;
+            box-shadow: 5px 5px 5px;
+            ;
+        }
+
+        p {
+            margin: 0px 0px;
+        }
+
+        .right-detail-bottom {
+            float: right;
+            width: 25%;
+            position: relative;
+            left: 15px;
+            font-size: 13px;
+        }
+
+        .topbox {
+            background: linear-gradient(to bottom, #4c4c4c, #3f3f3f, #232323);
+            height: 120px;
+            width: px;
+            color: white;
+            font-size: 20px;
+            
+            padding: 0px 0px 0px 0px;
+
+        }
+
+        .right-detail-top {
+
+            position: absolute;
+            float: left;
+            left: 730px;
+            font-size: 12px;
+            color: white;
+            top: 120px;
+        }
+
+        .container {
+            background: #f1eeec;
+
+        }
+
+        .col {
+            padding: 0px;
+        }
+
+        .topbox2 {
+            background: linear-gradient(to bottom, #4c4c4c, #3f3f3f, #232323);
+
+        }
+
+        .contentline {
+            background: black;
+        }
+
+        .content2 {
+            float: right;
+            width: 45%;
+        }
+
+        .content2 td {
+            background: white;
+        }
+
+        .content3 td {
+            background: white;
+        }
+
+        .content4 td {
+            background: white;
+        }
+
+        .content3 {
+            float: right;
+            margin-right: 30px;
+            position: relative;
+            bottom: 100px;
+            width: 35%;
+        }
+
+        .rightcontent {
+            float: right;
+
+            width: 67%;
+            margin-right: 80px;
+        }
+
+        .right-detail-bottom {
+            float: right;
+            position: relative;
+            right: 30px;
+        }
+
+        .nextbtn {
+            margin-left: 100px;
+            width: 50%;
+        }
+
+        .left-content1 {
+            color: black;
+            margin-top: 200px;
+            margin-left: 10px;
+            height: 300px;
+            width: 500px;
+            background: white;
+        }
+
+        .seatpyo {
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .left-content2 {
+
+            color: black;
+            font-size: 14px;
+            margin-top: 250px;
+            margin-left: 20px;
+
+            height: 230px;
+            width: 500px;
+
+            opacity: 1.0;
+        }
+
+        .right-content2 {
+            float: right;
+            width: 67%;
+            margin-right: 80px;
+            position: relative;
+            bottom: 380px;
+            color: black;
+        }
+
+
+        .right-content3 {
+            float: right;
+            width: 67%;
+            margin-right: 100px;
+            position: relative;
+            bottom: 680px;
+            color: black;
+        }
+
+        .rightcontent3 {
+            float: right;
+
+            width: 67%;
+            margin-right: 100px;
+        }
+
+        .right-detail-bottom3 {
+            float: right;
+            font-size: 13px;
+            position: relative;
+            right: 140px;
+            bottom: 130px;
+        }
+
+        .seat-a {
+            text-align: center;
+            border: 1px;
+
+        }
+
+        .seat-a input {
+            text-align: center;
+        }
+
+        .textarea {
+
+            float: left;
+        }
+
+        .left-content3 {
+            margin-top: 10px;
+
+            margin: 10px auto;
+        }
+
+        .left-content3 > td {
+            background-color: white;
+        }
+
+        .right-content4 {
+            float: right;
+            width: 67%;
+            margin-right: 100px;
+            position: relative;
+            bottom: 900px;
+            color: black;
+        }
+
+        .rightcontent4 {
+            float: right;
+            position: relative;
+
+            width: 67%;
+            margin-right: 100px;
+        }
+
+        .right-detail-bottom4 {
+            float: right;
+            font-size: 13px;
+            position: relative;
+            right: 30px;
+            bottom: 420px;
+        }
+
+        .nextbtn4 {
+            margin-left: 100px;
+            width: 50%;
+
+        }
+
+        .right-image4 {
+            float: right;
+            width: 20%;
+
+            position: relative;
+            right: 30px;
+            bottom: 500px;
+
+            margin-left: 300px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            box-shadow: 5px 5px 5px;
+            ;
+        }
+
+        .content4 {
+            float: right;
+            width: 45%;
+            position: relative;
+            bottom: 450px;
+            left: 50px;
+        }
+        .seat-total{
+            background: white;
+            opacity: 0.7;
+            font-size: 12px;
+        }
+        
